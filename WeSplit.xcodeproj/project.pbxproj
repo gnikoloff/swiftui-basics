@@ -6,19 +6,9 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F49A31C927A99E0E005750B1 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A31C827A99E0E005750B1 /* WeSplitApp.swift */; };
-		F49A31CB27A99E0E005750B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A31CA27A99E0E005750B1 /* ContentView.swift */; };
-		F49A31CD27A99E10005750B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A31CC27A99E10005750B1 /* Assets.xcassets */; };
-		F49A31D027A99E10005750B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A31CF27A99E10005750B1 /* Preview Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		F49A31C527A99E0E005750B1 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49A31C827A99E0E005750B1 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
-		F49A31CA27A99E0E005750B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F49A31CC27A99E10005750B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F49A31CF27A99E10005750B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F49A31D627AB28AF005750B1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +25,7 @@
 		F49A31BC27A99E0E005750B1 = {
 			isa = PBXGroup;
 			children = (
-				F49A31C727A99E0E005750B1 /* WeSplit */,
+				F49A31D627AB28AF005750B1 /* README.md */,
 				F49A31C627A99E0E005750B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +36,6 @@
 				F49A31C527A99E0E005750B1 /* WeSplit.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F49A31C727A99E0E005750B1 /* WeSplit */ = {
-			isa = PBXGroup;
-			children = (
-				F49A31C827A99E0E005750B1 /* WeSplitApp.swift */,
-				F49A31CA27A99E0E005750B1 /* ContentView.swift */,
-				F49A31CC27A99E10005750B1 /* Assets.xcassets */,
-				F49A31CE27A99E10005750B1 /* Preview Content */,
-			);
-			path = WeSplit;
-			sourceTree = "<group>";
-		};
-		F49A31CE27A99E10005750B1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F49A31CF27A99E10005750B1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +96,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49A31D027A99E10005750B1 /* Preview Assets.xcassets in Resources */,
-				F49A31CD27A99E10005750B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49A31CB27A99E0E005750B1 /* ContentView.swift in Sources */,
-				F49A31C927A99E0E005750B1 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
