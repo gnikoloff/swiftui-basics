@@ -1,3 +1,3 @@
 ##  swiftui basics
 
-Each branch is one app tutorial
+let each branch be one tutorial from [hackingwithswift](https://www.hackingwithswift.com/)
